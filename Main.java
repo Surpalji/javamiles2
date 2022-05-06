@@ -1,15 +1,24 @@
 public class Main {
     public static void main(String[] args) {
 
-        int prise = 3000;
-        int bonus = prise / 20;
-        int mils = 0 + bonus;
+        int check = 100;
+        int pay = 2000;
+        int bonus;
 
-        System.out.println("mils:" + bonus);
+        if (pay > 1000) {
+            bonus = pay / 100;
+        } else {
+            bonus = 0;
 
-
+        }
+        System.out.println("miles: " + bonus);
     }
 }
+
+
+
+
+
 
 
 
